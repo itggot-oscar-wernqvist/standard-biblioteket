@@ -1,3 +1,3 @@
-def first_of.rb(array)
+def first_of(array)
     return array[0]
 end
