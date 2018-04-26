@@ -1,3 +1,13 @@
+# Public: factorialize a number.
+#
+# number  - Any number to be factorialized.
+#
+# Examples
+#
+#   factorial(2)
+#   # => 8
+#
+# Returns the factorial of number.
 def factorial(num)
     i = num - 1
     out = num
