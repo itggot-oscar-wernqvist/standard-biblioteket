@@ -9,5 +9,8 @@
 #
 # Returns a string without \n at the end.
 def chomp(string)
+    if string[-1] == "\n"
+        string[-1] = ""
+    end
     return string
 end
